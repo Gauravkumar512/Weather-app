@@ -19,6 +19,7 @@ search.addEventListener("click",(e) => {
     
 
 fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${api}`)
+
 .then(response => {
     return response.json()
 })
@@ -31,6 +32,7 @@ fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${a
     
 
 return fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api}&units=metric`)
+
 })
 
 .then(response => {
