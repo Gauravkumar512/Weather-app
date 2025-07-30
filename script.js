@@ -18,7 +18,7 @@ search.addEventListener("click",(e) => {
     }
     
 
-fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${api}`)
+fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${api}`)
 .then(response => {
     return response.json()
 })
