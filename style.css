@@ -1,0 +1,104 @@
+    body {
+        background-color: #121212;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+    }
+    .container {
+        background: linear-gradient(135deg, #2c3e50, #4ca1af);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .header {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    #search {
+        height: 40px;
+        width: 235px;
+        border-radius: 30px;
+        border: none;
+        font-size: 16px;
+        padding-left: 20px;
+        background-color: #ffffff10;
+        color: #fff;
+        border: 1px solid #ffffff30;
+        outline: none;
+    }
+    #search::placeholder {
+        color: #bbbbbb;
+    }
+    #search-bar {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: #6dd5ed;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+    #search-bar:hover {
+        background-color: #2193b0;
+    }
+    .search-icon {
+        height: 20px;
+        padding-top: 2px;
+    }
+    .sun {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    #sun-img {
+        height: 120px;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+    .temp {
+        font-size: 38px;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .place {
+        font-size: 28px;
+        margin-top: 5px;
+        color: #f0f0f0;
+    }
+    .lower {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 30px;
+    }
+    .left-side, .right-side {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .humid-temp, .humid-wind {
+        font-size: 20px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    .humid, .wind {
+        font-size: 14px;
+        color: #cccccc;
+    }
+    .humidity, .wind-speed {
+        height: 40px;
+        width: 40px;
+        color: white;
+    }
